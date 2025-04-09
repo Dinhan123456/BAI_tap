@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="taoformdongian.css">
+</head>
+<body>
+<div gitclass="form-container">
+    <div class="form-header">SỞ THÍCH CỦA BẠN</div>
+    <form>
+        <table>
+            <tr>
+                <td><label for="username">Họ và tên</label></td>
+                <td><input type="text" id="username" name="username"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Sở thích</label></td>
+                <td colspan="2">
+                    <label class="checkbox-label"><input type="checkbox" name="hobby" value="thethao"> Thể thao</label>
+                    <label class="checkbox-label"><input type="checkbox" name="hobby" value="amnhac"> Âm nhạc</label>
+                    <label class="checkbox-label"><input type="checkbox" name="hobby" value="docsach"> Đọc sách</label><br><br>
+                    <label class="checkbox-label"><input type="checkbox" name="hobby" value="luotweb"> Lướt web</label>
+                    <label class="checkbox-label"><input type="checkbox" name="hobby" value="choigame"> Chơi game</label>
+                    <label class="checkbox-label"><input type="checkbox" name="hobby" value="dienanh"> Điện ảnh</label><br><br>
+                    <label class="checkbox-label"><input type="checkbox" name="hobby" value="dulich"> Du lịch</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" class="button-row">
+                    <input type="submit" value="Gửi thông tin">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
