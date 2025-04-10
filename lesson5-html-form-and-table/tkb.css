@@ -1,0 +1,37 @@
+
+table {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+caption {
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-right {
+    text-align: right;
+}
+
+tr, td {
+    border:  1px solid black;
+    padding: 5px;
+}
+
+.border-none {
+    color: dodgerblue;
+    border: none;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.text-center {
+    text-align: center;
+}
