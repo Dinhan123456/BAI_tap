@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Title</title>
 </head>
+
 <body>
-$END$
+<table style="width:500px;">
+    <tr>
+        <td>Amount</td>
+        <td>From-currency</td>
+        <td>To-currency</td>
+    </tr>
+    <tr>
+        <td><input id="amount" type="number" value=""></td>
+        <td>
+            <select id="from-curency">
+                <option value="26000">VND</option>
+                <option value="1">USD</option>
+            </select>
+        </td>
+        <td>
+            <select id="to-curency">
+                <option value="26000">VND</option>
+                <option value="1">USD</option>
+            </select>
+        </td>
+        <td><button onclick="buy()">Buy</button></td>
+    </tr>
+</table>
+<p id="result"></p>
+
+<script>
+    function buy() {
+        let amount = document.getElementById('amount').value;
+        let fromcurency = document.getElementById('from-curency').value;
+        let tocurency = document.getElementById('to-curency').value;
+        let result = amount / fromcurency * tocurency;
+        document.getElementById('result').innerHTML = "Kết quả: " + result;
+    }
+</script>
+
 </body>
 </html>
