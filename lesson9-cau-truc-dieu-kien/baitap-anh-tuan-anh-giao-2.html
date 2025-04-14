@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let diemkt = +prompt("Nhap diem KT: ");
+  let diemgk = +prompt("Nhap diem GK: ");
+  let diemck = +prompt("Nhap diem CK: ");
+
+  let diemtb = (diemkt + diemgk + diemck)/3;
+  if (diemtb >= 8){
+    alert("hoc sinh gioi ");
+  } else if (diemtb >= 6.5){
+    alert("hoc sinh kha ");
+  } else if (diemtb >= 5){
+    alert("hoc sinh TB ");
+  } else {
+    alert("hoc sinh yeu ");
+  }
+
+</script>
+</body>
+</html>
