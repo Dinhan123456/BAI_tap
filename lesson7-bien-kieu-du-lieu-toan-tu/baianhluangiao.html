@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body id="result">
+<h1>Lãi ngân hàng</h1>
+<input id="money" type="number" value="">
+<input id="month" type="number" value="">
+<button onclick="getmoney()">ketqua</button>
+<script>
+    function getmoney(){
+        let money = +document.getElementById('money').value;
+        let month = +document.getElementById('month').value;
+        let total = money + money * month * 7 / (100 * 12);
+        document.getElementById('result').innerHTML = total;
+    }
+</script>
+</body>
+</html>

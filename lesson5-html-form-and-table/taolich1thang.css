@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+.calendar {
+    border: 1px solid orange;
+    padding: 10px;
+    width: fit-content;
+}
+.calendar h2 {
+    text-align: center;
+    font-size: 24px;
+    color: blue;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+td, th {
+    border: 1px solid #999;
+    width: 60px;
+    height: 50px;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sunday{
+    background-color: red;
+    font-weight: normal;
+}
+.saturday{
+   background-color:  blue;
+    font-weight: normal;
+}
+.monday{
+    background-color: orange;
+}
+.tuesday{
+    background-color: orange;
+}
+.wednesday{
+    background-color: orange;
+}
+.thursday{
+    background-color: orange;
+}
+.friday{
+    background-color: orange;
+}

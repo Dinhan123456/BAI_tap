@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body id="result">
+ngay sinh:
+<input id="birthday" type="date">
+<button onclick="getAge()">Ket qua</button>
+
+<script>
+    function getAge() {
+        let birthday = document.getElementById('birthday').value;
+        let date = new Date(birthday);
+        //get year
+        let year = date.getFullYear();
+        let currentDate = new Date();
+        let currentYear = currentDate.getFullYear();
+       let age = currentYear - year;
+       document.getElementById('result').innerHTML ="năm nay  bạn đã: " + age + "tuổi xuân xanh";
+    }
+</script>
+</body>
+</html>

@@ -1,9 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Lịch Tháng 10</title>
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .calendar {
+        border: 1px solid #999;
+        padding: 10px;
+        width: fit-content;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .calendar h2 {
+        text-align: center;
+        color: blue;
+        font-size: 24px;
+    }
+
+    .calendar h2 .eng {
+        font-weight: normal;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        text-align: center;
+    }
+
+    th, td {
+        border: 1px solid #999;
+        width: 60px;
+        height: 50px;
+        vertical-align: top;
+        font-size: 18px;
+        font-weight: bold;
+        position: relative;
+    }
+
+    thead th {
+        height: 60px;
+        color: white;
+    }
+
+    thead .sun { background-color: red; }
+    thead .mon,
+    thead .tue,
+    thead .wed,
+    thead .thu,
+    thead .fri { background-color: orange; }
+    thead .sat { background-color: blue; }
+
+    thead th span {
+        display: block;
+        color: black;
+        font-weight: normal;
+        margin-top: 4px;
+    }
+
+    .day sub {
+        font-size: 12px;
+        vertical-align: sub;
+        margin-left: 2px;
+        font-weight: normal;
+    }
+
+    .sun { color: red; }
+    .sat { color: blue; }
+
+</style>
 <body>
+<div class="calendar">
+    <h2>Tháng 10 - <span class="eng">October</span></h2>
+    <table>
+        <thead>
+        <tr>
+            <th class="sun">C.Nhật<br><span>Sun</span></th>
+            <th class="mon">T.Hai<br><span>Mon</span></th>
+            <th class="tue">T.Ba<br><span>Tue</span></th>
+            <th class="wed">T.Tư<br><span>Wed</span></th>
+            <th class="thu">T.Năm<br><span>Thu</span></th>
+            <th class="fri">T.Sáu<br><span>Fri</span></th>
+            <th class="sat">T.Bảy<br><span>Sat</span></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td></td><td></td><td></td><td></td><td class="day">1<sub>13</sub></td><td class="day">2<sub>14</sub></td><td class="day sat">3<sub>15</sub></td>
+        </tr>
+        <tr>
+            <td class="day sun">4<sub>16</sub></td><td class="day">5<sub>17</sub></td><td class="day">6<sub>18</sub></td><td class="day">7<sub>19</sub></td><td class="day">8<sub>20</sub></td><td class="day">9<sub>21</sub></td><td class="day sat">10<sub>22</sub></td>
+        </tr>
+        <tr>
+            <td class="day sun">11<sub>23</sub></td><td class="day">12<sub>24</sub></td><td class="day">13<sub>25</sub></td><td class="day">14<sub>26</sub></td><td class="day">15<sub>27</sub></td><td class="day">16<sub>28</sub></td><td class="day sat">17<sub>29</sub></td>
+        </tr>
+        <tr>
+            <td class="day sun">18<sub>1.9</sub></td><td class="day">19<sub>2</sub></td><td class="day">20<sub>3</sub></td><td class="day">21<sub>4</sub></td><td class="day">22<sub>5</sub></td><td class="day">23<sub>6</sub></td><td class="day sat">24<sub>7</sub></td>
+        </tr>
+        <tr>
+            <td class="day sun">25<sub>8</sub></td><td class="day">26<sub>9</sub></td><td class="day">27<sub>10</sub></td><td class="day">28<sub>11</sub></td><td class="day">29<sub>12</sub></td><td class="day">30<sub>13</sub></td><td class="day sat">31<sub>14</sub></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
 </body>
 </html>

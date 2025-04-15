@@ -1,37 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.calendar {
+    border: 1px solid #999;
+    padding: 10px;
+    width: fit-content;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.calendar h2 {
+    text-align: center;
+    color: blue;
+    font-size: 24px;
+}
+
+.calendar h2 .eng {
+    font-weight: normal;
+}
 
 table {
-    width: 800px;
     border-collapse: collapse;
-}
-
-caption {
-    color: blue;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.text-right {
-    text-align: right;
-}
-
-tr, td {
-    border:  1px solid black;
-    padding: 5px;
-}
-
-.border-none {
-    color: dodgerblue;
-    border: none;
-}
-
-.bg-yellow {
-    background-color: yellow;
-}
-
-.bg-orange {
-    background-color: orange;
-}
-
-.text-center {
+    width: 100%;
     text-align: center;
 }
+
+th, td {
+    border: 1px solid #999;
+    width: 60px;
+    height: 50px;
+    vertical-align: top;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+thead th {
+    height: 60px;
+    color: white;
+}
+
+thead .sun { background-color: red; }
+thead .mon,
+thead .tue,
+thead .wed,
+thead .thu,
+thead .fri { background-color: orange; }
+thead .sat { background-color: blue; }
+
+thead th span {
+    display: block;
+    color: black;
+    font-weight: normal;
+    margin-top: 4px;
+}
+
+.day sub {
+    font-size: 12px;
+    vertical-align: sub;
+    margin-left: 2px;
+    font-weight: normal;
+}
+
+.sun { color: red; }
+.sat { color: blue; }
