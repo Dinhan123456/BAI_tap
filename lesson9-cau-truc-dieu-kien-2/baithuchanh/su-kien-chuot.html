@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <form>
+    <img id="myimg" src="tải xuống (17).jpg" style="width: 30%;"/>
+    <p> click vao day de con sau chay den an ban</p>
+    <input type="button" value="click me" onclick="moveright();">
+  </form>
+<script>
+  let img0bj= null
+  img0bj= document.getElementById('myimg');
+  function init(){
+    img0bj= document.getElementById('myimg');
+    img0bj.style.position = 'relative';
+    img0bj.style.left = '0px';
+  }
+  function moveright(){
+    img0bj.style.left = parseInt(img0bj.style.left) + 20 +'px';
+  }
+  window.onload = init;
+</script>
+</body>
+</html>

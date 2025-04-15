@@ -5,51 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson6-tong-quan-javascript/baitentuoitrenlop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baianhluangiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap-anhluangiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitapanhtuananhgiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/onlaikienthuc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/onlaikienthuc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/tiente.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/ung-dung-may-tinh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baithuchanh/su-kien-ban-phim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baithuchanh/su-kien-chuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baithuchanh/tải xuống (17).jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-html-form-and-table/tao_lich_1_thang.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-html-form-and-table/tao_lich_1_thang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-html-form-and-table/taobancovua.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-html-form-and-table/taobancovua.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-html-form-and-table/taolich1thang.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-html-form-and-table/taolich1thang.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-html-form-and-table/tehs.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-html-form-and-table/tehs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-html-form-and-table/testttttt2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-html-form-and-table/testttttt2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson5-html-form-and-table/tkb.css" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5-html-form-and-table/tkb.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6/baithuchanh1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/baithuchanh1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson6/baithuchanh2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson5/baithuchanh2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-tong-quan-javascript/3baitap.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6-tong-quan-javascript/3baitap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-tong-quan-javascript/bai2-javascript-va-html-ghi-vao-noi-dung-the.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6-tong-quan-javascript/bai2-javascript-va-html-ghi-vao-noi-dung-the.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-tong-quan-javascript/bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6-tong-quan-javascript/bai2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-tong-quan-javascript/bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6-tong-quan-javascript/bai3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-tong-quan-javascript/baitentuoitrenlop.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-cau-truc-dieu-kien/baithuchanh/kiem-tra-nam-nhuam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson7-tong-quan-javascript/hien-thi-thong-diep-bang-nhieu-cach.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson6-tong-quan-javascript/hien-thi-thong-diep-bang-nhieu-cach.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/bai2-baithuchanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/bai2-baithuchanh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/bai3-baithuchanh.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/bai3-baithuchanh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baianhluangiao.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-cau-truc-dieu-kien/baithuchanh/luyen-tap-cau-truc-if-else-if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap-anhluangiao.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-cau-truc-dieu-kien/baithuchanh/luyen-tap-cau-truc-if-else.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap-bien-va-kieu-du-lieu-toan-tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap-bien-va-kieu-du-lieu-toan-tu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap-bienvakieudulieutoantu.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap-bienvakieudulieutoantu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap1.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap1.2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap1.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap1.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap1.3and1.4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap1.3and1.4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap1.3and1.4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap1.3and1.4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitap2-ung-dung-chuyen-doi-tien-te.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitap2-ung-dung-chuyen-doi-tien-te.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitapanhtuananhgiao.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baitapanhtuananhgiao.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baitapanhtuananhgiao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baithuchanh-khai-bao-su-dung-bien.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baithuchanh-khai-bao-su-dung-bien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/baithuchanh-su-dung-toan-tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson7-bien-kieu-du-lieu-toan-tu/baithuchanh-su-dung-toan-tu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/onlaikienthuc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/onlaikienthuc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/tiente.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson8-bien-kieu-du-lieu-toan-tu/ung-dung-may-tinh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien/pseudo-code-va-flow-chart/baitap-anh-tuan-anh-giao-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-cau-truc-dieu-kien/pseudo-code-va-flow-chart/baitap-anh-tuan-anh-giao-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien/pseudo-code-va-flow-chart/baitap-anh-tuan-anh-giao.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-cau-truc-dieu-kien/pseudo-code-va-flow-chart/baitap-anh-tuan-anh-giao.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien/pseudo-code-va-flow-chart/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/lesson8-cau-truc-dieu-kien/pseudo-code-va-flow-chart/img_1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +67,7 @@
     "JavaScript Debug.hien-thi-thong-diep-bang-nhieu-cach.html.executor": "Run",
     "JavaScript Debug.kiem-tra-nam-nhuam.html.executor": "Run",
     "JavaScript Debug.onlaikienthuc.html.executor": "Run",
+    "JavaScript Debug.su-kien-chuot.html.executor": "Run",
     "JavaScript Debug.tao_ban_co_vua.html.executor": "Run",
     "JavaScript Debug.tao_bang_don_gian.html.executor": "Run",
     "JavaScript Debug.tao_cv_canhan.html.executor": "Run",
@@ -132,6 +92,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien-2\baithuchanh" />
       <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien\ pseudo-code-va-flow-chart" />
       <recent name="E:\Webstorm\Project\lesson4" />
       <recent name="E:\Webstorm\Project\lesson5-html-form-and-table" />
@@ -162,7 +123,7 @@
       <workItem from="1744595251747" duration="3866000" />
       <workItem from="1744601647617" duration="8694000" />
       <workItem from="1744626050563" duration="364000" />
-      <workItem from="1744679474900" duration="315000" />
+      <workItem from="1744679474900" duration="2446000" />
     </task>
     <servers />
   </component>
