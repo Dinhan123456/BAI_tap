@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      let weith = prompt("Can nang: kg");
+      let height = prompt("Chieu cao: cm");
+      let bmi = weith / height * height;
+      if (bmi < 18.5) {
+        document.getElementById("underweight");
+      }  else if (bmi < 25.0 ) {
+        document.getElementById("normal");
+      }  else if (bmi < 30.0){
+          document.getElementById("overweight");
+      }  else {
+          document.getElementById("obese");
+      }
+      document.getElementById("bmi").innerHTML =prompt(bmi) + bmi;
+    </script>
+</body>
+</html>

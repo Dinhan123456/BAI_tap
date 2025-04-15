@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Kiểm tra số ngày trong tháng</h1>
+    <label for="month"> Nhập số tháng(1-12)</label>
+    <input type="number" id="month"/>
+    <button onclick="getMonthDay()">Tính số ngày</button>
+    <p id="result">Đây là chỗ hiển thị kết quả</p>
+    <script>
+        function getMonthDay() {
+            let month = parseInt(document.getElementById("month").value);
+            let result = "";
+            switch (month) {
+                case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+                    result = "tháng " + month + " có 31 ngày";
+                    break;
+                case 4: case 6: case 9: case 11:
+                    result = "tháng " + month + " có 30 ngày";
+                    break;
+                case 2:
+                    result ="tháng " + month + " có 28 hoặc 29 ngày";
+                    break;
+                default:
+                    result = "Nhap so thang tu 1 den 12";
+            }
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+</body>
+</html>
