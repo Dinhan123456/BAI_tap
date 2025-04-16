@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +50,13 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Doyouloveme.html.executor": "Run",
+    "JavaScript Debug.bai1.html.executor": "Run",
     "JavaScript Debug.bai2-baithuchanh.html.executor": "Run",
     "JavaScript Debug.bai2.html.executor": "Run",
     "JavaScript Debug.bai3-baithuchanh.html.executor": "Run",
     "JavaScript Debug.bai3.html.executor": "Run",
+    "JavaScript Debug.bai4.html.executor": "Run",
+    "JavaScript Debug.bai5.html.executor": "Run",
     "JavaScript Debug.baianhluangiao.html.executor": "Run",
     "JavaScript Debug.baitap-anh-tuan-anh-giao-2.html.executor": "Run",
     "JavaScript Debug.baitap-anh-tuan-anh-giao.html.executor": "Run",
@@ -129,7 +139,8 @@
       <workItem from="1744601647617" duration="8694000" />
       <workItem from="1744626050563" duration="364000" />
       <workItem from="1744679474900" duration="16282000" />
-      <workItem from="1744766072690" duration="7474000" />
+      <workItem from="1744766072690" duration="7551000" />
+      <workItem from="1744776787789" duration="5646000" />
     </task>
     <servers />
   </component>

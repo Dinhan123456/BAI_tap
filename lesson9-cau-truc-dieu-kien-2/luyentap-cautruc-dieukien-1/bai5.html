@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diemkt = +prompt("nhap diemkt: ");
+    let diemgk = +prompt("nhap diemgk: ");
+    let diemck = +prompt("nhap diemck: ");
+    let diemtb = (diemkt + diemgk + diemck) / 3;
+    if (diemtb >= 8) {
+        document.write(alert("điểm = " + diemtb + " học sinh giỏi "));
+    } else if (diemtb >= 6.5) {
+        document.write(alert("điểm = " + diemtb + " học sinh khá "));
+    } else if (diemtb >= 5) {
+        document.write(alert("điểm = " + diemtb + " học sinh trung bình "));
+    } else {
+        document.write(alert("điểm = " + diemtb + " học sinh yếu"));
+    }
+</script>
+</body>
+</html>
