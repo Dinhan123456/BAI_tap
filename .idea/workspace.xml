@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/Doyouloveme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/doyouloveme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/doyouloveme2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/game-puzzble.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,8 @@
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -67,10 +66,13 @@
     "JavaScript Debug.baithuchanh2.html.executor": "Run",
     "JavaScript Debug.baithuchanhp2.html.executor": "Run",
     "JavaScript Debug.cau-lenh-switch-case.html.executor": "Run",
+    "JavaScript Debug.doyouloveme2.html.executor": "Run",
+    "JavaScript Debug.game-puzzble.html.executor": "Run",
     "JavaScript Debug.hien-thi-thong-diep-bang-nhieu-cach.html.executor": "Run",
     "JavaScript Debug.kiem-tra-nam-nhuam.html.executor": "Run",
     "JavaScript Debug.may-tinh-don-gian.html.executor": "Run",
     "JavaScript Debug.onlaikienthuc.html.executor": "Run",
+    "JavaScript Debug.su-kien-ban-phim.html.executor": "Run",
     "JavaScript Debug.su-kien-chuot.html.executor": "Run",
     "JavaScript Debug.tao_ban_co_vua.html.executor": "Run",
     "JavaScript Debug.tao_bang_don_gian.html.executor": "Run",
@@ -129,7 +131,7 @@
       <workItem from="1744601647617" duration="8694000" />
       <workItem from="1744626050563" duration="364000" />
       <workItem from="1744679474900" duration="16282000" />
-      <workItem from="1744766072690" duration="3054000" />
+      <workItem from="1744766072690" duration="6493000" />
     </task>
     <servers />
   </component>
