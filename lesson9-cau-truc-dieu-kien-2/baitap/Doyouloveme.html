@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="doyouloveme.css">
+</head>
+<body>
+    <h1>Do you love me</h1>
+    <button id="yeslove" onclick="love()">Yes</button> <button id="nolove1" onmouseover="nolove()">No</button>
+  <script>
+    function love() {
+      let love = alert("<3");
+    }
+    function nolove() {
+      let nolove1 = document.getElementById("nolove1");
+      let maxWidth = window.innerWidth - nolove1.offsetWidth;
+      let maxHeight = window.innerHeight - nolove1.offsetHeight;
+      let randomLeft = Math.random() * maxWidth;
+      let randomTop = Math.random() * maxHeight;
+      nolove1.style.left = randomLeft + "px";
+      nolove1.style.top = randomTop + "px";
+    }
+
+  </script>
+</body>
+</html>

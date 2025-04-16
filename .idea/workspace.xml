@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/cau-lenh-switch-case.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/tinh-chi-so-can-nang-co-the.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/Doyouloveme.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/doyouloveme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +21,9 @@
         <option value="TypeScript File" />
         <option value="tsconfig.json" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="package.json" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -45,6 +45,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.Doyouloveme.html.executor": "Run",
     "JavaScript Debug.bai2-baithuchanh.html.executor": "Run",
     "JavaScript Debug.bai2.html.executor": "Run",
     "JavaScript Debug.bai3-baithuchanh.html.executor": "Run",
@@ -127,7 +128,8 @@
       <workItem from="1744595251747" duration="3866000" />
       <workItem from="1744601647617" duration="8694000" />
       <workItem from="1744626050563" duration="364000" />
-      <workItem from="1744679474900" duration="11789000" />
+      <workItem from="1744679474900" duration="16282000" />
+      <workItem from="1744766072690" duration="3054000" />
     </task>
     <servers />
   </component>

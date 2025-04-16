@@ -3,71 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-  <style>
-    * {
-      box-sizing: border-box;
+    <style>
+    table {
+        border: 5px solid black;
     }
-    body {
-      display: flex;
-      justify-content: center;
+    button{
+        border: 1px solid black;
+        color: blue;
+        background: white;
+        padding: 4px 10px;
+        width: 50px;
     }
-    table{
-      /*width: 400px;*/
+    input{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 4px 10px;
+        border: 1px solid lightgray;
     }
-    td {
-      border: 1px solid black;
-    }
-    input {
-      width: 100%;
-    }
-    button {
 
-    }
-  </style>
+
+    </style>
 </head>
 <body>
 
-  <table>
+<table>
     <tr>
-     <td>
-    <input type="number" id="pow" >
-     </td>
+        <td colspan="5">
+            <input type="text" id="pow">
+        </td>
     </tr>
     <tr>
-     <td>
-          <button onclick=""> 1 </button>
-          <button onclick=""> 2 </button>
-          <button onclick=""> 3 </button>
-          <button onclick=""> + </button>
-    </td>
+        <td>
+        <td><button type="button" name="btn" value="1" onclick="inputValue(this.value)"> 1</button></td>
+        <td><button type="button" name="btn" value="2" onclick="inputValue(this.value)"> 2</button></td>
+        <td><button type="button" name="btn" value="3" onclick="inputValue(this.value)"> 3</button></td>
+        <td><button type="button" name="op" value="+" onclick="inputValue(this.value)"> +</button></td>
+        </td>
     </tr>
     <tr>
-      <td>
-    <button onclick=""> 4 </button>
-    <button onclick=""> 5 </button>
-    <button onclick=""> 6 </button>
-    <button onclick=""> - </button>
-      </td>
+        <td>
+        <td><button type="button" name="btn" value="4" onclick="inputValue(this.value)"> 4</button></td>
+        <td><button type="button" name="btn" value="5" onclick="inputValue(this.value)"> 5</button></td>
+        <td><button type="button" name="btn" value="6" onclick="inputValue(this.value)"> 6</button></td>
+        <td><button type="button" name="op" value="-" onclick="inputValue(this.value)"> -</button></td>
+        </td>
     </tr>
     <tr>
-      <td>
-        <button onclick=""> 7 </button>
-        <button onclick=""> 8 </button>
-        <button onclick=""> 9 </button>
-        <button onclick=""> x </button>
-      </td>
+        <td>
+        <td><button type="button" name="btn" value="7" onclick="inputValue(this.value)"> 7</button></td>
+        <td><button type="button" name="btn" value="8" onclick="inputValue(this.value)"> 8</button></td>
+        <td><button type="button" name="btn" value="9" onclick="inputValue(this.value)"> 9</button></td>
+        <td><button type="button" name="op" value="*" onclick="inputValue(this.value)"> *</button></td>
+        </td>
     </tr>
     <tr>
-      <td>
-        <button onclick=""> C </button>
-        <button onclick=""> 0 </button>
-        <button onclick=""> = </button>
-        <button onclick=""> / </button>
-      </td>
+        <td>
+        <td><button type="button" onclick="delet()"> C</button></td>
+        <td><button type="button" name="btn" value="0" onclick="inputValue(this.value)"> 0</button></td>
+        <td><button type="button" name="result"  onclick="result()"> =</button></td>
+        <td><button type="button" name="op" value="/" onclick="inputValue(this.value)"> /</button></td>
+        </td>
     </tr>
-  </table>
+</table>
 <script>
+    let pow = document.getElementById('pow');
+    function inputValue(value) {
+        pow.value += value
 
+    }
+    function result(){
+        let result = eval(pow.value);
+        pow.value = result;
+    }
+    function delet() {
+        pow.value = "";
+    }
 </script>
 </body>
 </html>
