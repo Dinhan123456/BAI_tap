@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Máy Tính Cơ Bản</title>
+
 </head>
 <body>
-    <form>
-      <table>
-        <tr>
-          <td><input type="number" value=""></td>
-        </tr>
-        <tr>
-          <button onclick=""></button>
+<h2>Ứng Dụng Máy Tính</h2>
+<input type="number" id="num1" placeholder="Nhập số thứ nhất">
+<input type="number" id="num2" placeholder="Nhập số thứ hai"><br><br>
 
-        </tr>
-      </table>
-    </form>
+<button onclick="calculate('+')">Cộng (+)</button>
+<button onclick="calculate('-')">Trừ (-)</button>
+<button onclick="calculate('*')">Nhân (×)</button>
+<button onclick="calculate('/')">Chia (÷)</button>
+
+<p id="result">Kết quả: </p>
+<script>
+    function calculate(operator) {
+        let num1 = parseFloat(document.getElementById("num1").value);
+        let num2 = parseFloat(document.getElementById("num2").value);
+        let result;
+
+        if (isNaN(num1) || isNaN(num2)) {
+            result = "Vui lòng nhập số hợp lệ!";
+        } else {
+            switch (operator) {
+                case '+': result = num1 + num2; break;
+                case '-': result = num1 - num2; break;
+                case '*': result = num1 * num2; break;
+                case '/':
+                    result = num2 !== 0 ? (num1 / num2).toFixed(2) : "Không thể chia cho 0!";
+                    break;
+            }
+        }
+
+        document.getElementById("result").innerText = "Kết quả: " + result;
+    }
+</script>
 </body>
 </html>

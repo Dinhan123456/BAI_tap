@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+      let minutes = +prompt("so phut goi trong thang: ");
+      let thuebao = 25000;
+      let goi = 0;
+      if (minutes < 50) {
+        goi = minutes * 600;
+      } else {
+        goi = 50 * 600 + (minutes - 50)* 400;
+      }
+      let total = thuebao + goi ;
+      alert("tong cuoc tien dien thoai la: " + total + " dong");
+    </script>
+</body>
+</html>

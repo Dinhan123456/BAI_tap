@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let kwh = prompt("nhap so diem da dung: ");
+  let total = 0;
+  if (kwh <= 50 ) {
+    total = kwh * 1678 ;
+  } else if (kwh <= 100){
+    total = 50 * 1678 + (kwh - 50) * 1734
+  } else {
+    total = 50 * 1678 + 50 * 1734 + (kwh - 100) * 2014
+  }
+  alert("cai gia phai tra: " + total);
+</script>
+</body>
+</html>

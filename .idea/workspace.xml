@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baianhtuananhgiao/bai-tap-anh-tuan-anh-giao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baianhtuananhgiao/baianhtuananhgiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/Su-dung-vao-lap-for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vao-lap-while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-do-while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-for2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-long-nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-white2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baithuchanh/battietcanh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baianhtuananhgiao/tinhtongsole.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/baitap/sinh-bang-cuu-chuong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cau-truc-dieu-kien2/bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +44,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -55,12 +62,18 @@
     "JavaScript Debug.Su-dung-vao-lap-for.html.executor": "Run",
     "JavaScript Debug.bai-tap-anh-tuan-anh-giao.html.executor": "Run",
     "JavaScript Debug.bai1.html.executor": "Run",
+    "JavaScript Debug.bai10.html.executor": "Run",
+    "JavaScript Debug.bai11.html.executor": "Run",
+    "JavaScript Debug.bai12.html.executor": "Run",
     "JavaScript Debug.bai2-baithuchanh.html.executor": "Run",
     "JavaScript Debug.bai2.html.executor": "Run",
     "JavaScript Debug.bai3-baithuchanh.html.executor": "Run",
     "JavaScript Debug.bai3.html.executor": "Run",
     "JavaScript Debug.bai4.html.executor": "Run",
     "JavaScript Debug.bai5.html.executor": "Run",
+    "JavaScript Debug.bai6.html.executor": "Run",
+    "JavaScript Debug.bai7.html.executor": "Run",
+    "JavaScript Debug.bai9.html.executor": "Run",
     "JavaScript Debug.baianhluangiao.html.executor": "Run",
     "JavaScript Debug.baianhtuananhgiao.html.executor": "Run",
     "JavaScript Debug.baitap-anh-tuan-anh-giao-2.html.executor": "Run",
@@ -86,6 +99,7 @@
     "JavaScript Debug.kiem-tra-nam-nhuam.html.executor": "Run",
     "JavaScript Debug.may-tinh-don-gian.html.executor": "Run",
     "JavaScript Debug.onlaikienthuc.html.executor": "Run",
+    "JavaScript Debug.sinh-bang-cuu-chuong.html.executor": "Run",
     "JavaScript Debug.su-dung-vao-lap-while.html.executor": "Run",
     "JavaScript Debug.su-dung-vong-lap-do-while.html.executor": "Run",
     "JavaScript Debug.su-dung-vong-lap-for2.html.executor": "Run",
@@ -101,6 +115,7 @@
     "JavaScript Debug.taoformdongian2.html.executor": "Run",
     "JavaScript Debug.tehs.html.executor": "Run",
     "JavaScript Debug.tinh-chi-so-can-nang-co-the.html.executor": "Run",
+    "JavaScript Debug.tinhtongsole.html.executor": "Run",
     "JavaScript Debug.ung-dung-may-tinh.html.executor": "Run",
     "Node.js.baitap1.3.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -153,7 +168,7 @@
       <workItem from="1744679474900" duration="16282000" />
       <workItem from="1744766072690" duration="7551000" />
       <workItem from="1744776787789" duration="12523000" />
-      <workItem from="1744852269308" duration="1532000" />
+      <workItem from="1744852269308" duration="10816000" />
     </task>
     <servers />
   </component>

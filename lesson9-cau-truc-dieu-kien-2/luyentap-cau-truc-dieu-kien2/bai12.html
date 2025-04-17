@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+    let a = +prompt("thu nhap ban dau: ");
+    let month = +prompt("so thang gui: ");
+    let laixuat = +prompt("lai xuat ngan hang : ");
+    for (let i = 0; i < month; i++) {
+      a += a * laixuat/100;
+    }
+    alert("tien nhan duoc la: " + month + " thang la: " + a.toFixed(2) + " vnd");
+  </script>
+</body>
+</html>
