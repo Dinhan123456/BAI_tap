@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/luyentap-cautruc-dieukien-1/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baianhtuananhgiao/bai-tap-anh-tuan-anh-giao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baianhtuananhgiao/baianhtuananhgiao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/Su-dung-vao-lap-for.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vao-lap-while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-do-while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-for2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-long-nhau.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baithuchanh/su-dung-vong-lap-white2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baithuchanh/battietcanh.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson9-cau-truc-dieu-kien-2/baitap/may-tinh-don-gian.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +37,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -50,6 +52,8 @@
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.Doyouloveme.html.executor": "Run",
+    "JavaScript Debug.Su-dung-vao-lap-for.html.executor": "Run",
+    "JavaScript Debug.bai-tap-anh-tuan-anh-giao.html.executor": "Run",
     "JavaScript Debug.bai1.html.executor": "Run",
     "JavaScript Debug.bai2-baithuchanh.html.executor": "Run",
     "JavaScript Debug.bai2.html.executor": "Run",
@@ -58,6 +62,7 @@
     "JavaScript Debug.bai4.html.executor": "Run",
     "JavaScript Debug.bai5.html.executor": "Run",
     "JavaScript Debug.baianhluangiao.html.executor": "Run",
+    "JavaScript Debug.baianhtuananhgiao.html.executor": "Run",
     "JavaScript Debug.baitap-anh-tuan-anh-giao-2.html.executor": "Run",
     "JavaScript Debug.baitap-anh-tuan-anh-giao.html.executor": "Run",
     "JavaScript Debug.baitap-anhluangiao.html.executor": "Run",
@@ -73,6 +78,7 @@
     "JavaScript Debug.baithuchanh1.html.executor": "Run",
     "JavaScript Debug.baithuchanh2.html.executor": "Run",
     "JavaScript Debug.baithuchanhp2.html.executor": "Run",
+    "JavaScript Debug.battietcanh.html.executor": "Run",
     "JavaScript Debug.cau-lenh-switch-case.html.executor": "Run",
     "JavaScript Debug.doyouloveme2.html.executor": "Run",
     "JavaScript Debug.game-puzzble.html.executor": "Run",
@@ -80,6 +86,11 @@
     "JavaScript Debug.kiem-tra-nam-nhuam.html.executor": "Run",
     "JavaScript Debug.may-tinh-don-gian.html.executor": "Run",
     "JavaScript Debug.onlaikienthuc.html.executor": "Run",
+    "JavaScript Debug.su-dung-vao-lap-while.html.executor": "Run",
+    "JavaScript Debug.su-dung-vong-lap-do-while.html.executor": "Run",
+    "JavaScript Debug.su-dung-vong-lap-for2.html.executor": "Run",
+    "JavaScript Debug.su-dung-vong-lap-long-nhau.html.executor": "Run",
+    "JavaScript Debug.su-dung-vong-lap-white2.html.executor": "Run",
     "JavaScript Debug.su-kien-ban-phim.html.executor": "Run",
     "JavaScript Debug.su-kien-chuot.html.executor": "Run",
     "JavaScript Debug.tao_ban_co_vua.html.executor": "Run",
@@ -107,6 +118,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Webstorm\Project\lesson10-cau-truc-lap-1\baianhtuananhgiao" />
       <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien-2\baithuchanh" />
       <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien\ pseudo-code-va-flow-chart" />
       <recent name="E:\Webstorm\Project\lesson4" />
@@ -140,7 +152,8 @@
       <workItem from="1744626050563" duration="364000" />
       <workItem from="1744679474900" duration="16282000" />
       <workItem from="1744766072690" duration="7551000" />
-      <workItem from="1744776787789" duration="5646000" />
+      <workItem from="1744776787789" duration="12523000" />
+      <workItem from="1744852269308" duration="1532000" />
     </task>
     <servers />
   </component>
