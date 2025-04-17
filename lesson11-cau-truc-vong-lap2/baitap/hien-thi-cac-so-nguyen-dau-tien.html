@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let numbers = +prompt("Nhap so nguyen can tim: ");
+    let count = 0;
+    let n = 2;
+
+    function prime(n) {
+        if (n <= 1) return false;
+        for (let i = 2; i <= Math.sqrt(n); i++) {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+
+    while (count < numbers) {
+        if (prime(n)) {
+            document.write(n + '<br>');
+            count++;
+        }
+        n++;
+    }
+
+
+</script>
+</body>
+</html>
