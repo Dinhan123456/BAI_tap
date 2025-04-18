@@ -5,6 +5,17 @@
     <title>Title</title>
 </head>
 <body>
+//tinh lai ngan hang
+    <script>
+       let money = +prompt("Nhap so tien da gui: ");
+       let month = +prompt("Nhap so thang: ");
+       let laisuat = +prompt("nhap lai xuat ngan hang: ");
+       let A = money;
+       for (let i = 1; i <= month; i++) {
+           A = A * (1+laisuat / 100);
+           document.write("Tháng " + i + ": " + A.toFixed(2) + "<br>");
+       }
+    </script>
 
 </body>
 </html>
