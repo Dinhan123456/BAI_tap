@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+// in day fibonacce
+<script>
+  let a = 0;
+  let b = 1;
+  let count = prompt("nhap so lan in: ");
+  for (let i = 0; i < count; i++) {
+    let temp = (a + b);
+    a = b;
+    b = temp;
+    document.write(temp + "<br>");
+  }
+</script>
+</body>
+</html>

@@ -5,14 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/baitap/hien-thi-cac-so-nguyen-dau-tien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap2/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap2/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap2/bai3.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap2/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12-mang1/baithuchanh/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12-mang1/baithuchanh/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12-mang1/baithuchanh/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12-mang1/baithuchanh/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson12-mang1/baithuchanh/nbai3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson11-cau-truc-vong-lap2/luyentap-vong-lap1/bai6.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +64,7 @@
     "JavaScript Debug.bai2-baithuchanh.html.executor": "Run",
     "JavaScript Debug.bai2.html.executor": "Run",
     "JavaScript Debug.bai3-baithuchanh.html.executor": "Run",
+    "JavaScript Debug.bai3.1.html.executor": "Run",
     "JavaScript Debug.bai3.html.executor": "Run",
     "JavaScript Debug.bai4.html.executor": "Run",
     "JavaScript Debug.bai5.html.executor": "Run",
@@ -90,6 +96,7 @@
     "JavaScript Debug.hien-thi-thong-diep-bang-nhieu-cach.html.executor": "Run",
     "JavaScript Debug.kiem-tra-nam-nhuam.html.executor": "Run",
     "JavaScript Debug.may-tinh-don-gian.html.executor": "Run",
+    "JavaScript Debug.nbai3.html.executor": "Run",
     "JavaScript Debug.onlaikienthuc.html.executor": "Run",
     "JavaScript Debug.sinh-bang-cuu-chuong.html.executor": "Run",
     "JavaScript Debug.su-dung-vao-lap-while.html.executor": "Run",
@@ -161,7 +168,9 @@
       <workItem from="1744679474900" duration="16282000" />
       <workItem from="1744766072690" duration="7551000" />
       <workItem from="1744776787789" duration="12523000" />
-      <workItem from="1744852269308" duration="23458000" />
+      <workItem from="1744852269308" duration="24121000" />
+      <workItem from="1744938695437" duration="5829000" />
+      <workItem from="1744948268603" duration="4213000" />
     </task>
     <servers />
   </component>

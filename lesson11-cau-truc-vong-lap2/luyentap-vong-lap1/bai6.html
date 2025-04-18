@@ -5,6 +5,18 @@
     <title>Title</title>
 </head>
 <body>
-
+<script>
+    let number = 1;
+    let count = 0;
+    let sum = 0;
+    while (count < 30){
+        if (number % 7 === 0){
+            sum = sum + number;
+            count++;
+        }
+        number++;
+    }
+    alert("tong cac so nguyen chia het cho 7 la: " + sum);
+</script>
 </body>
 </html>
