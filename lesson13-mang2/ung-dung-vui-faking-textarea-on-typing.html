@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Type anthing slowly</h1>
+<textarea id="fakeText"></textarea>
+<script>
+  const text = "Còn trẻ còn non mặc! hehe  ";
+  let curren = 0;
+
+  const textarea = document.getElementById('fakeText');
+
+  textarea.addEventListener('keydown', function(event) {
+    event.preventDefault();
+    if (curren < text.length) {
+      textarea.value += text[curren];
+      curren++;
+    }
+  });
+</script>
+</body>
+</html>

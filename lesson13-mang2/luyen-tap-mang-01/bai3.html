@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let numbers = [0,12,23,34,45,56,67,78,89,10];
+  let max = numbers[0];
+  let sum = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > max) {
+      max = numbers[i];
+    }
+    sum += numbers[i];
+  }
+    let average = sum / numbers.length;
+    document.write("max = " + max + " TB = " + average);
+</script>
+</body>
+</html>

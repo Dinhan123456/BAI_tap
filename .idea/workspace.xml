@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/Tu-dien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/su-dung-cac-ham-co-san-cua-mang/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/su-dung-cac-ham-co-san-cua-mang/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/su-dung-cac-ham-co-san-cua-mang/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/tic-tac-toe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/ung-dung-vui-faking-textarea-on-typing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baianhtuananhgiao/tinhtongsole.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson10-cau-truc-lap-1/baianhtuananhgiao/tinhtongsole.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +75,7 @@
     "JavaScript Debug.bai5.html.executor": "Run",
     "JavaScript Debug.bai6.html.executor": "Run",
     "JavaScript Debug.bai7.html.executor": "Run",
+    "JavaScript Debug.bai8.html.executor": "Run",
     "JavaScript Debug.bai9.html.executor": "Run",
     "JavaScript Debug.baianhluangiao.html.executor": "Run",
     "JavaScript Debug.baianhtuananhgiao.html.executor": "Run",
@@ -112,6 +123,7 @@
     "JavaScript Debug.tinh-chi-so-can-nang-co-the.html.executor": "Run",
     "JavaScript Debug.tinhtongsole.html.executor": "Run",
     "JavaScript Debug.ung-dung-may-tinh.html.executor": "Run",
+    "JavaScript Debug.ung-dung-vui-faking-textarea-on-typing.html.executor": "Run",
     "Node.js.baitap1.3.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -128,12 +140,22 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Webstorm\Project\lesson13-mang2" />
       <recent name="E:\Webstorm\Project\lesson10-cau-truc-lap-1\baianhtuananhgiao" />
       <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien-2\baithuchanh" />
       <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien\ pseudo-code-va-flow-chart" />
       <recent name="E:\Webstorm\Project\lesson4" />
-      <recent name="E:\Webstorm\Project\lesson5-html-form-and-table" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ung-dung-vui-faking-textarea-on-typing.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Project/lesson13-mang2/ung-dung-vui-faking-textarea-on-typing.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.ung-dung-vui-faking-textarea-on-typing.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -166,7 +188,7 @@
       <workItem from="1744852269308" duration="24121000" />
       <workItem from="1744938695437" duration="5829000" />
       <workItem from="1744948268603" duration="10192000" />
-      <workItem from="1745198660648" duration="5077000" />
+      <workItem from="1745198660648" duration="18754000" />
     </task>
     <servers />
   </component>
