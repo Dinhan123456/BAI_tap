@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function insertDash(str) {
+        let arr = str.split('');
+        let result = '';
+        for (let i = 0; i < arr.length; i++) {
+            result += arr[i];
+            if (i < arr.length - 1 && +arr[i] % 2 === 0 && +arr[i + 1] % 2 === 0) {
+                result += '-';
+            }
+        }
+        return result;
+    }
+
+    document.write(insertDash("025468"));
+
+</script>
+</body>
+</html>
