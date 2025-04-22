@@ -5,22 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-01/bai9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/luyen-tap-mang-02/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/ung-dung-vui-faking-textarea-on-typing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson13-mang2/baianhtuananhgiao.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14-ham1/baithuchanh/chuyen-doi-nhiet-do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14-ham1/baithuchanh/tao-va-goi-ham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson14-ham1/baithuchanh/tim-gia-tri-nho-nhat-cua-mang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,6 +84,7 @@
     "JavaScript Debug.baithuchanhp2.html.executor": "Run",
     "JavaScript Debug.battietcanh.html.executor": "Run",
     "JavaScript Debug.cau-lenh-switch-case.html.executor": "Run",
+    "JavaScript Debug.chuyen-doi-nhiet-do.html.executor": "Run",
     "JavaScript Debug.doyouloveme2.html.executor": "Run",
     "JavaScript Debug.game-puzzble.html.executor": "Run",
     "JavaScript Debug.hien-thi-cac-so-nguyen-dau-tien.html.executor": "Run",
@@ -112,6 +101,7 @@
     "JavaScript Debug.su-dung-vong-lap-white2.html.executor": "Run",
     "JavaScript Debug.su-kien-ban-phim.html.executor": "Run",
     "JavaScript Debug.su-kien-chuot.html.executor": "Run",
+    "JavaScript Debug.tao-va-goi-ham.html.executor": "Run",
     "JavaScript Debug.tao_ban_co_vua.html.executor": "Run",
     "JavaScript Debug.tao_bang_don_gian.html.executor": "Run",
     "JavaScript Debug.tao_cv_canhan.html.executor": "Run",
@@ -120,6 +110,7 @@
     "JavaScript Debug.taoformdongian2.html.executor": "Run",
     "JavaScript Debug.tehs.html.executor": "Run",
     "JavaScript Debug.test1.html.executor": "Run",
+    "JavaScript Debug.tim-gia-tri-nho-nhat-cua-mang.html.executor": "Run",
     "JavaScript Debug.tinh-chi-so-can-nang-co-the.html.executor": "Run",
     "JavaScript Debug.tinhtongsole.html.executor": "Run",
     "JavaScript Debug.ung-dung-may-tinh.html.executor": "Run",
@@ -188,7 +179,8 @@
       <workItem from="1744852269308" duration="24121000" />
       <workItem from="1744938695437" duration="5829000" />
       <workItem from="1744948268603" duration="10192000" />
-      <workItem from="1745198660648" duration="18754000" />
+      <workItem from="1745198660648" duration="24120000" />
+      <workItem from="1745288261184" duration="1562000" />
     </task>
     <servers />
   </component>
