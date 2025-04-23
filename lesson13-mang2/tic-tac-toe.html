@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tic Tac Toe</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            font-size: 24px;
+            border: 1px solid #333;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-<p id ="carogame" ></p>
-<input type="button" value="change value" onclick="caro()">
-    <script>
+<h2>Tic Tac Toe</h2>
+<table id="board"></table>
+<h3 id="message"></h3>
 
-    </script>
+<script>
+    const size = 3;
+    let board = [];
+    let currentPlayer = "X";
+    let gameOver = false;
+
+    function createBoard() {
+        const table = document.getElementById("board");
+        for (let i = 0; i < size; i++) {
+            board[i] = [];
+            const row = document.createElement("tr");
+            for (let j = 0; j < size; j++) {
+                board[i][j] = ".";
+                const cell = document.createElement("td");
+                cell.innerText = ".";
+                cell.addEventListener("click", () => makeMove(i, j, cell));
+                row.appendChild(cell);
+            }
+            table.appendChild(row);
+        }
+    }
+
+    function makeMove(row, col, cell) {
+        if (board[row][col] !== "." || gameOver) return;
+
+        board[row][col] = currentPlayer;
+        cell.innerText = currentPlayer;
+
+        if (checkWin(currentPlayer)) {
+            document.getElementById("message").innerText = `${currentPlayer} thắng!`;
+            gameOver = true;
+            return;
+        }
+
+        currentPlayer = currentPlayer === "X" ? "O" : "X";
+    }
+
+    function checkWin(player) {
+        for (let i = 0; i < size; i++) {
+            if (board[i].every(cell => cell === player)) return true;
+
+            if (board.map(row => row[i]).every(cell => cell === player)) return true;
+        }
+
+        if (board.every((row, idx) => row[idx] === player)) return true;
+
+        if (board.every((row, idx) => row[size - 1 - idx] === player)) return true;
+
+        return false;
+    }
+
+    createBoard();
+
+</script>
 </body>
 </html>

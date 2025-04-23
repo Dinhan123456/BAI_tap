@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function feethTometer(foot) {
+        return 0.305 * foot;
+    }
+
+    let foot = prompt("Enter feet");
+    foot = parseFloat(foot);
+    if (!isNaN(foot)) {
+        let meter = feethTometer(foot);
+        document.write(foot + " feet = " + meter + " meters" + "<br>");
+    } else {
+        document.write("khong phai so");
+    }
+
+    function meterToFoot(meter) {
+        return 3.279 * meter;
+    }
+
+    let meter = prompt("Enter meters");
+    meter = parseFloat(meter);
+
+    if (!isNaN(meter)) {
+        let foot = meterToFoot(meter);
+        document.write(meter + " meters = " + foot + " feet");
+    } else {
+        document.write("Không phải số hợp lệ");
+    }
+
+</script>
+</body>
+</html>

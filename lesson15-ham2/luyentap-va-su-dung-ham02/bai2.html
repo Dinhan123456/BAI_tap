@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  function dientich(r) {
+    return 3.14 * r * r;
+  }
+  function chuvi(r) {
+    return 2 * 3.14 * r;
+  }
+  function kiemtra() {
+    let r = +prompt("Nhap r: ");
+    if (isNaN(r) || r <= 0) {
+      alert("Vui long nhap so hop le");
+      return;
+    }
+    let s = dientich(r);
+    let v = chuvi(r);
+    document.write("Dien tich: " + s + "<br>" + " Chu vi: " + v);
+  }
+  kiemtra();
+</script>
+</body>
+</html>

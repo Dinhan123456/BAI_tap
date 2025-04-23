@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý sản phẩm</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: center;
+        }
+
+        input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Danh sách sản phẩm</h2>
+
+<!-- Form thêm sản phẩm -->
+<input type="text" id="newProduct" placeholder="Nhập tên sản phẩm mới">
+<button onclick="addProduct()">Thêm</button>
+
+<!-- Form sửa sản phẩm -->
+<br>
+<input type="text" id="editProduct" placeholder="Tên cần sửa">
+<button onclick="updateProduct()">Sửa</button>
+
+<!-- Bảng hiển thị -->
+<table>
+    <thead>
+    <tr>
+        <th>STT</th>
+        <th>Tên sản phẩm</th>
+        <th>Xoá</th>
+    </tr>
+    </thead>
+    <tbody id="productTable">
+    <!-- Dữ liệu sẽ hiển thị ở đây -->
+    </tbody>
+</table>
+
+<script>
+    // Bước 2: Mảng sản phẩm
+    let products = ["Áo", "Quần", "Giày"];
+
+    let selectedIndex = -1;
+
+    // Bước 3 + 4: Hiển thị danh sách sản phẩm
+    function showProducts() {
+        const table = document.getElementById("productTable");
+        table.innerHTML = ""; // Xoá nội dung cũ
+
+        for (let i = 0; i < products.length; i++) {
+            let row = `
+          <tr>
+            <td>${i + 1}</td>
+            <td onclick="selectProduct(${i})">${products[i]}</td>
+            <td><button onclick="deleteProduct(${i})">Xoá</button></td>
+          </tr>
+        `;
+            table.innerHTML += row;
+        }
+    }
+
+    // Bước 5: Thêm sản phẩm
+    function addProduct() {
+        let name = document.getElementById("newProduct").value.trim();
+        if (name) {
+            products.push(name);
+            alert("Đã thêm sản phẩm!");
+            document.getElementById("newProduct").value = "";
+            showProducts();
+        } else {
+            alert("Vui lòng nhập tên sản phẩm.");
+        }
+    }
+
+    // Bước 6: Sửa sản phẩm
+    function selectProduct(index) {
+        document.getElementById("editProduct").value = products[index];
+        selectedIndex = index;
+    }
+
+    function updateProduct() {
+        let newName = document.getElementById("editProduct").value.trim();
+        if (selectedIndex !== -1 && newName) {
+            products[selectedIndex] = newName;
+            alert("Đã cập nhật sản phẩm.");
+            document.getElementById("editProduct").value = "";
+            selectedIndex = -1;
+            showProducts();
+        } else {
+            alert("Vui lòng chọn sản phẩm và nhập tên mới.");
+        }
+    }
+
+    // Bước 7: Xoá sản phẩm
+    function deleteProduct(index) {
+        if (confirm("Bạn có chắc muốn xoá sản phẩm này?")) {
+            products.splice(index, 1);
+            showProducts();
+        }
+    }
+
+    // Hiển thị lần đầu
+    showProducts();
+</script>
+
+</body>
+</html>

@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson13-mang2/baianhtuananhgiao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14-ham1/baithuchanh/chuyen-doi-nhiet-do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14-ham1/baithuchanh/tao-va-goi-ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson14-ham1/baithuchanh/tim-gia-tri-nho-nhat-cua-mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/chuyen-doi-giua-feet-va-meters.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/ham-kiem-tra-so-nguyen-to.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/ung-dung-quan-li-san-pham-ham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson13-mang2/tic-tac-toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13-mang2/tic-tac-toe.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,9 +99,11 @@
     "JavaScript Debug.baithuchanhp2.html.executor": "Run",
     "JavaScript Debug.battietcanh.html.executor": "Run",
     "JavaScript Debug.cau-lenh-switch-case.html.executor": "Run",
+    "JavaScript Debug.chuyen-doi-giua-feet-va-meters.html.executor": "Run",
     "JavaScript Debug.chuyen-doi-nhiet-do.html.executor": "Run",
     "JavaScript Debug.doyouloveme2.html.executor": "Run",
     "JavaScript Debug.game-puzzble.html.executor": "Run",
+    "JavaScript Debug.ham-kiem-tra-so-nguyen-to.html.executor": "Run",
     "JavaScript Debug.hien-thi-cac-so-nguyen-dau-tien.html.executor": "Run",
     "JavaScript Debug.hien-thi-thong-diep-bang-nhieu-cach.html.executor": "Run",
     "JavaScript Debug.kiem-tra-nam-nhuam.html.executor": "Run",
@@ -109,11 +126,14 @@
     "JavaScript Debug.taoformdongian.html.executor": "Run",
     "JavaScript Debug.taoformdongian2.html.executor": "Run",
     "JavaScript Debug.tehs.html.executor": "Run",
+    "JavaScript Debug.test.html.executor": "Run",
     "JavaScript Debug.test1.html.executor": "Run",
+    "JavaScript Debug.tic-tac-toe.html.executor": "Run",
     "JavaScript Debug.tim-gia-tri-nho-nhat-cua-mang.html.executor": "Run",
     "JavaScript Debug.tinh-chi-so-can-nang-co-the.html.executor": "Run",
     "JavaScript Debug.tinhtongsole.html.executor": "Run",
     "JavaScript Debug.ung-dung-may-tinh.html.executor": "Run",
+    "JavaScript Debug.ung-dung-quan-li-san-pham-ham.html.executor": "Run",
     "JavaScript Debug.ung-dung-vui-faking-textarea-on-typing.html.executor": "Run",
     "Node.js.baitap1.3.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -131,11 +151,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Webstorm\Project\lesson15-ham2\baitap" />
       <recent name="E:\Webstorm\Project\lesson13-mang2" />
       <recent name="E:\Webstorm\Project\lesson10-cau-truc-lap-1\baianhtuananhgiao" />
       <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien-2\baithuchanh" />
       <recent name="E:\Webstorm\Project\lesson9-cau-truc-dieu-kien\ pseudo-code-va-flow-chart" />
-      <recent name="E:\Webstorm\Project\lesson4" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,7 +200,8 @@
       <workItem from="1744938695437" duration="5829000" />
       <workItem from="1744948268603" duration="10192000" />
       <workItem from="1745198660648" duration="24120000" />
-      <workItem from="1745288261184" duration="1562000" />
+      <workItem from="1745288261184" duration="16297000" />
+      <workItem from="1745370524280" duration="10118000" />
     </task>
     <servers />
   </component>

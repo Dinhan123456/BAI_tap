@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let sum = ['!','@','#','$','%']
+  function sum2() {
+    let input = prompt("Nhập kí tự: ");
+    let count = 0;
+    for (let i = 0; i < sum.length; i++) {
+      if (input === sum[i] ) {
+        count++;
+      }
+    }
+    if (count > 0) {
+      alert("Chuẩn cơm mẹ nấu")
+    }else {
+      alert("Kết quả: -1")
+    }
+  }
+  sum2();
+
+</script>
+</body>
+</html>
