@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isPalindrome(s) {
+        if (s.length <= 1){
+            return true;
+        }if (s[0] === s[s.length - 1]) {
+            return false;
+        }
+        return isPalindrome(s.slice(1, s.length - 1));
+    }
+        let input = prompt("Nhập một từ để kiểm tra:");
+        if (isPalindrome(input)) {
+        alert(`"${input}" là từ đối xứng.`);
+    } else {
+        alert(`"${input}" KHÔNG phải là từ đối xứng.`);
+    }
+
+
+</script>
+</body>
+</html>

@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/chuyen-doi-giua-feet-va-meters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/ham-kiem-tra-so-nguyen-to.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/ung-dung-quan-li-san-pham-ham.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-ham-va-su-dung-ham/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/luyentap-va-su-dung-ham02/bai9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/kiem-tra-tu-doi-xung.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson13-mang2/tic-tac-toe.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson13-mang2/tic-tac-toe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson15-ham2/baitap/ung-dung-quan-li-san-pham-ham.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/ung-dung-quan-li-san-pham-ham.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +90,7 @@
     "JavaScript Debug.hien-thi-cac-so-nguyen-dau-tien.html.executor": "Run",
     "JavaScript Debug.hien-thi-thong-diep-bang-nhieu-cach.html.executor": "Run",
     "JavaScript Debug.kiem-tra-nam-nhuam.html.executor": "Run",
+    "JavaScript Debug.kiem-tra-tu-doi-xung.html.executor": "Run",
     "JavaScript Debug.may-tinh-don-gian.html.executor": "Run",
     "JavaScript Debug.nbai3.html.executor": "Run",
     "JavaScript Debug.onlaikienthuc.html.executor": "Run",
@@ -201,7 +185,7 @@
       <workItem from="1744948268603" duration="10192000" />
       <workItem from="1745198660648" duration="24120000" />
       <workItem from="1745288261184" duration="16297000" />
-      <workItem from="1745370524280" duration="10118000" />
+      <workItem from="1745370524280" duration="17382000" />
     </task>
     <servers />
   </component>

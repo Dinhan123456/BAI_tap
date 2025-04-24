@@ -4,115 +4,118 @@
     <meta charset="UTF-8">
     <title>Quản lý sản phẩm</title>
     <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
+
+        .box {
+            background: #f5f5f5;
+            padding: 20px;
+            width: 400px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
         table {
+            width: 100%;
             border-collapse: collapse;
-            width: 50%;
-            margin-top: 10px;
+            margin-top: 15px;
         }
 
         th, td {
-            border: 1px solid #999;
-            padding: 8px;
-            text-align: center;
+            padding: 10px;
+            text-align: left;
         }
 
-        input {
-            margin: 5px;
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .count {
+            color: darkred;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
 
-<h2>Danh sách sản phẩm</h2>
+<h3>Add New Product</h3>
+<div class="box">
+    <input type="text" id="newProduct" placeholder="New Product">
+    <button onclick="addProduct()">Add</button>
+</div>
 
-<!-- Form thêm sản phẩm -->
-<input type="text" id="newProduct" placeholder="Nhập tên sản phẩm mới">
-<button onclick="addProduct()">Thêm</button>
-
-<!-- Form sửa sản phẩm -->
-<br>
-<input type="text" id="editProduct" placeholder="Tên cần sửa">
-<button onclick="updateProduct()">Sửa</button>
-
-<!-- Bảng hiển thị -->
-<table>
-    <thead>
-    <tr>
-        <th>STT</th>
-        <th>Tên sản phẩm</th>
-        <th>Xoá</th>
-    </tr>
-    </thead>
-    <tbody id="productTable">
-    <!-- Dữ liệu sẽ hiển thị ở đây -->
-    </tbody>
-</table>
+<h3>Display All Product</h3>
+<p><strong>Product Name</strong> <span class="count" id="count"></span></p>
+<table id="productTable"></table>
 
 <script>
-    // Bước 2: Mảng sản phẩm
-    let products = ["Áo", "Quần", "Giày"];
+    let products = [
+        'Sony Xperia', 'Samsung Galaxy', 'Nokia 6',
+        'Xiaomi Redmi Note 4', 'Apple iPhone 6S',
+        'Micromax Canvas', 'Lenovo K8', 'Oppo F3', 'Vivo V5'
+    ];
 
-    let selectedIndex = -1;
-
-    // Bước 3 + 4: Hiển thị danh sách sản phẩm
-    function showProducts() {
-        const table = document.getElementById("productTable");
-        table.innerHTML = ""; // Xoá nội dung cũ
-
+    function renderTable() {
+        let table = '';
         for (let i = 0; i < products.length; i++) {
-            let row = `
+            table += `
           <tr>
-            <td>${i + 1}</td>
-            <td onclick="selectProduct(${i})">${products[i]}</td>
-            <td><button onclick="deleteProduct(${i})">Xoá</button></td>
-          </tr>
-        `;
-            table.innerHTML += row;
+            <td>${products[i]}</td>
+            <td><button onclick="editProduct(${i})">Edit</button></td>
+            <td><button onclick="deleteProduct(${i})">Delete</button></td>
+          </tr>`;
         }
+        document.getElementById('productTable').innerHTML = table;
+        document.getElementById('count').innerText = products.length + ' products';
     }
 
-    // Bước 5: Thêm sản phẩm
     function addProduct() {
-        let name = document.getElementById("newProduct").value.trim();
-        if (name) {
+        let input = document.getElementById("newProduct");
+        let name = input.value.trim();
+        if (name !== "") {
             products.push(name);
-            alert("Đã thêm sản phẩm!");
-            document.getElementById("newProduct").value = "";
-            showProducts();
+            input.value = "";
+            renderTable();
         } else {
-            alert("Vui lòng nhập tên sản phẩm.");
+            alert("Please enter product name.");
         }
     }
 
-    // Bước 6: Sửa sản phẩm
-    function selectProduct(index) {
-        document.getElementById("editProduct").value = products[index];
-        selectedIndex = index;
-    }
-
-    function updateProduct() {
-        let newName = document.getElementById("editProduct").value.trim();
-        if (selectedIndex !== -1 && newName) {
-            products[selectedIndex] = newName;
-            alert("Đã cập nhật sản phẩm.");
-            document.getElementById("editProduct").value = "";
-            selectedIndex = -1;
-            showProducts();
-        } else {
-            alert("Vui lòng chọn sản phẩm và nhập tên mới.");
-        }
-    }
-
-    // Bước 7: Xoá sản phẩm
     function deleteProduct(index) {
-        if (confirm("Bạn có chắc muốn xoá sản phẩm này?")) {
+        if (confirm("Are you sure to delete?")) {
             products.splice(index, 1);
-            showProducts();
+            renderTable();
         }
     }
 
-    // Hiển thị lần đầu
-    showProducts();
+    function editProduct(index) {
+        let newName = prompt("Edit product name:", products[index]);
+        if (newName !== null && newName.trim() !== "") {
+            products[index] = newName.trim();
+            renderTable();
+        }
+    }
+
+    // Ban đầu hiển thị bảng
+    renderTable();
 </script>
 
 </body>
