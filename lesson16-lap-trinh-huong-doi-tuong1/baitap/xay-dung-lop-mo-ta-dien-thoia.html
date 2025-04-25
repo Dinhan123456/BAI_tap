@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Mobile {
+        constructor(name) {
+            this.name = name;
+            this.pin = 100;
+            this.isOn = false;
+            this.draft = "";
+            this.inbox = [];
+            this.sent = [];
+        }
+
+        useBattery() {
+            if (this.isOn && this.pin > 0) {
+                this.pin--;
+            }
+        }
+
+        turnOn() {
+            this.isOn = true;
+        }
+
+        turnOff() {
+            this.isOn = false;
+        }
+
+        checkStatus() {
+            return this.isOn;
+        }
+
+        charge() {
+            if (this.pin < 100) {
+                this.pin++;
+            }
+        }
+
+        composeMessage(message) {
+            if (this.isOn && this.pin > 0) {
+                this.draft = message;
+                this.useBattery();
+            }
+        }
+
+        sendMessageTo(otherMobile) {
+            if (this.isOn && this.pin > 0 && this.draft !== "") {
+                otherMobile.receiveMessage(this.draft, this.name);
+                this.sent.push(this.draft);
+                this.draft = "";
+                this.useBattery();
+            }
+        }
+
+        receiveMessage(message, sender) {
+            if (this.isOn && this.pin > 0) {
+                this.inbox.push(`${sender}: ${message}`);  // ✅ dùng đúng tên biến
+                this.useBattery();
+            }
+        }
+
+        viewInbox() {
+             return this.inbox;
+
+        }
+
+        viewSent() {
+           return this.sent;
+        }
+    }
+
+    let nokia = new Mobile("Nokia");
+    let iphone = new Mobile("Iphone");
+    nokia.turnOn();
+    iphone.turnOn();
+    nokia.composeMessage("Hello");
+    nokia.sendMessageTo(iphone);
+
+
+    iphone.composeMessage("Hello");
+    iphone.sendMessageTo(nokia);
+
+    console.log("Nokia inbox:", nokia.viewInbox());
+    console.log("Nokia sent:", nokia.viewSent());
+    console.log("iPhone inbox:", iphone.viewInbox());
+    console.log("iPhone sent:", iphone.viewSent());
+
+
+</script>
+</body>
+</html>

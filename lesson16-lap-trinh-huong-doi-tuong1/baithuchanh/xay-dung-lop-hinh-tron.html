@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let circle = function (radius) {
+    this.radius = radius;
+
+    this.getRadius = function () {
+      return radius;
+    }
+    //dientichhinhtron
+    this.getArea = function () {
+      return Math.PI * radius * radius;
+    }
+  };
+  let circle1 = new circle(2);
+  let radius = circle1.getRadius();
+  let area = circle1.getArea();
+  document.write("radius: " + radius + " ; ara: " + area);
+</script>
+</body>
+</html>

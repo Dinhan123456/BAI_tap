@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas id="myCanvas" width="800" height="600" style="border: 1px solid black"></canvas>
+<script>
+class Rectangle {
+    constructor(width, height) {
+        this.width = width;
+        this.height = height;
+    }
+    getdientich() {
+        return this.width * this.height;
+    }
+    getchuvi() {
+        return 2 * (this.width + this.height);
+    }
+    draw(ctx, x = 0, y = 0, color = "red") {
+        ctx.fillStyle = color;
+        ctx.fillRect(x, y, this.width, this.height);
+    }
+}
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+let rect = new Rectangle(200, 100);
+rect.draw(ctx,50,50,"orange");
+
+rect.width = 300;
+rect.width = 150;
+
+rect.draw(ctx,400,100,"blue");
+document.write("dien tich" + rect.getdientich());
+document.write("chu vi" + rect.getchuvi());
+</script>
+</body>
+</html>

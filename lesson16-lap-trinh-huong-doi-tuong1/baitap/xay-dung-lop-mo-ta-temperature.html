@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  class Temperature {
+    constructor(celsius) {
+      if (celsius < -273) {
+        throw new Error("Khong the nho hon -273 do c nua");
+      }
+      this.celsius = celsius;
+    }
+    toFahrenheit() {
+      return (this.celsius * 9 / 5) + 32;
+    }
+    toKelvin() {
+      return this.celsius + 273.15;
+    }
+  }
+  let celsius = +prompt("Nhập độ C: ");
+  let temp = new Temperature(celsius);
+
+  document.write("Do f: " + temp.toFahrenheit() + "<br>");
+  document.write("Do k: " + temp.toKelvin() + "<br>");
+  document.write("do c: " + temp.celsius);
+</script>
+</body>
+</html>

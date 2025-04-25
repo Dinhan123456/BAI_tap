@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e51b32d9-c0ba-4fdd-b023-896ea84ceebb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/kiem-tra-tu-doi-xung.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16-lap-trinh-huong-doi-tuong1/baitap/xay-dung-lop-mo-ta-dien-thoia.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16-lap-trinh-huong-doi-tuong1/baitap/xay-dung-lop-mo-ta-hinh-chu-nhat.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16-lap-trinh-huong-doi-tuong1/baitap/xay-dung-lop-mo-ta-temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16-lap-trinh-huong-doi-tuong1/baithuchanh/funny-circles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16-lap-trinh-huong-doi-tuong1/baithuchanh/xay-dung-lop-date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson16-lap-trinh-huong-doi-tuong1/baithuchanh/xay-dung-lop-hinh-tron.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson15-ham2/baitap/ung-dung-quan-li-san-pham-ham.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson15-ham2/baitap/ung-dung-quan-li-san-pham-ham.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +89,7 @@
     "JavaScript Debug.chuyen-doi-giua-feet-va-meters.html.executor": "Run",
     "JavaScript Debug.chuyen-doi-nhiet-do.html.executor": "Run",
     "JavaScript Debug.doyouloveme2.html.executor": "Run",
+    "JavaScript Debug.funny-circles.html.executor": "Run",
     "JavaScript Debug.game-puzzble.html.executor": "Run",
     "JavaScript Debug.ham-kiem-tra-so-nguyen-to.html.executor": "Run",
     "JavaScript Debug.hien-thi-cac-so-nguyen-dau-tien.html.executor": "Run",
@@ -119,6 +124,11 @@
     "JavaScript Debug.ung-dung-may-tinh.html.executor": "Run",
     "JavaScript Debug.ung-dung-quan-li-san-pham-ham.html.executor": "Run",
     "JavaScript Debug.ung-dung-vui-faking-textarea-on-typing.html.executor": "Run",
+    "JavaScript Debug.xay-dung-lop-date.html.executor": "Run",
+    "JavaScript Debug.xay-dung-lop-hinh-tron.html.executor": "Run",
+    "JavaScript Debug.xay-dung-lop-mo-ta-dien-thoia.html.executor": "Run",
+    "JavaScript Debug.xay-dung-lop-mo-ta-hinh-chu-nhat.html.executor": "Run",
+    "JavaScript Debug.xay-dung-lop-mo-ta-temperature.html.executor": "Run",
     "Node.js.baitap1.3.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -186,6 +196,7 @@
       <workItem from="1745198660648" duration="24120000" />
       <workItem from="1745288261184" duration="16297000" />
       <workItem from="1745370524280" duration="17382000" />
+      <workItem from="1745458834266" duration="11556000" />
     </task>
     <servers />
   </component>
