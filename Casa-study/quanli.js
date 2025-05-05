@@ -1,5 +1,5 @@
 let students = [];
-let editIndex = -1; // lưu chỉ số sinh viên đang sửa
+let editIndex = -1;
 
 document.getElementById("saveBtn").addEventListener("click", function() {
     if (editIndex === -1) {
