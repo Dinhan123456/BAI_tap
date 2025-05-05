@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function checkString(str) {
+    let vowels = ['a','b','c','d','e','f'];
+    let result = [];
+    for (let i = 0; i < str.length; i++) {
+      let char = str[i].toLowerCase();
+        if (vowels.includes(char) && !result.includes(char )) {
+          result.push(char);
+        }
+      }
+    return result;
+      }
+      document.write(checkString("hello world"),"<br>");
+      document.write(checkString("codegym ha noi viet nam"));
+</script>
+</body>
+</html>

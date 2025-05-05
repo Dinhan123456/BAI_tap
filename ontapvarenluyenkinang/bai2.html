@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let x = +prompt("nhap so vao day: ");
+    let y = +prompt("nhap so vao day: ");
+    let z = +prompt("nhap so vao day: ");
+
+    function checkTriangle(x, y, z) {
+        if (x <= 0 || y <= 0 || z <= 0 || x + y <= z || y + z <= x || z + x <= y) {
+            alert("khong phai la canh tam giac");
+            return;
+        }
+    }
+
+    let sides = [x, y, z];
+    sides.sort((a, b) => a - b);
+    if (sides[0] * sides[0] + sides[1] * sides[1] === sides[2] * sides[2]) {
+        alert("day la 3 canh tam giac");
+    } else {
+        alert("day khong phai la 3 canh tam giac");
+    }
+    checkTriangle(x, y, z);
+</script>
+</body>
+</html>

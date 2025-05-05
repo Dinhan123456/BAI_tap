@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let input = prompt("nhap so vao day (cach nhau bang dau ,): ");
+  let arr = input.split(",").map(Number);
+  document.write(arr);
+  let isDescending = true;
+  for (i = 0; i < arr.length - 1; i++) {
+    if (arr[i] < arr[i + 1]) {
+      isDescending = false;
+      break;
+    }
+  }
+  if (isDescending){
+    alert("ok");
+  }else {
+    alert("no");
+  }
+</script>
+</body>
+</html>

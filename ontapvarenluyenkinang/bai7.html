@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function checkCharArray(arr) {
+    let hasDight = false;
+    let hasLetter = false;
+    for (let i = 0; i < arr.length; i++) {
+      let char = arr[i];
+      if (char >= '0' && char <= '9') {
+        hasDight = true;
+      } else if (char >= 'a' && char <= 'z' || char >= 'A' && char <= 'Z') {
+        hasLetter = true;
+      }else{
+      return -1;
+      }
+    }
+    if (hasDight && hasLetter) {
+      return -1;
+    }else if (hasDight) {
+      return 1;
+    }else{
+      return 0;
+    }
+  }
+  document.write(checkCharArray(["a", "b", "c", "d", "e"]),"<br>");
+  document.write(checkCharArray(["1","2","3"]),"<br>");
+  document.write(checkCharArray(["a", "b", "C", "D", "E"]),"<br>");
+  document.write(checkCharArray(["a", "#", "3"]));
+</script>
+</body>
+</html>

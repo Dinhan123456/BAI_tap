@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  function find(x) {
+    // Kiểm tra xem có đúng định dạng phân số không (phải có đúng 1 dấu "/")
+    let parts = x.split("/");
+    if (parts.length !== 2) {
+      alert("Không phải là phân số");
+      return;
+    }
+
+    let numerator = parts[0].trim();   // tử số
+    let denominator = parts[1].trim(); // mẫu số
+
+    // Kiểm tra tử và mẫu đều là số hợp lệ
+    if (numerator === "" || denominator === "" || isNaN(numerator) || isNaN(denominator)) {
+      alert("Không phải là phân số");
+      return;
+    }
+
+    numerator = Number(numerator);
+    denominator = Number(denominator);
+
+    // Kiểm tra mẫu số có bằng 0 không
+    if (denominator === 0) {
+      alert("Không phải là phân số");
+      return;
+    }
+
+    // Nếu tử số bằng 0 → kết quả là 0
+    if (numerator === 0) {
+      alert("0");
+      return;
+    }
+
+    // Tìm GCD và rút gọn phân số
+    let gcdValue = gcd(numerator, denominator);
+    let simpleNumerator = numerator / gcdValue;
+    let simpleDenominator = denominator / gcdValue;
+
+    alert(simpleNumerator + "/" + simpleDenominator);
+  }
+
+  // Hàm tìm GCD (ước số chung lớn nhất)
+  function gcd(a, b) {
+    while (b !== 0) {
+      let temp = b;
+      b = a % b;
+      a = temp;
+    }
+    return Math.abs(a);
+  }
+
+  // Ví dụ test
+  let input = prompt("Nhập phân số (dạng a/b):");
+  find(input);
+
+</script>
+</body>
+</html>

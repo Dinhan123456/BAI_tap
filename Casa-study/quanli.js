@@ -1,7 +1,7 @@
 let students = [];
 let editIndex = -1;
 
-document.getElementById("saveBtn").addEventListener("click", function() {
+document.getElementById("saveBtn").addEventListener("click", function () {
     if (editIndex === -1) {
         save();
     } else {

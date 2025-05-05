@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function findMaxNumber(n) {
+        let str = n.toString();
+        if (str.length !== 4) {
+            return -1;
+        }
+        let maxNumber = 0;
+        for (let i = 0; i < str.length; i++) {
+            let newStr = str.slice(0, i) + str.slice(i + 1);
+            let num = Number(newStr);
+            if (num > maxNumber) {
+                maxNumber = num;
+            }
+        }
+        return maxNumber;
+    }
+
+    document.write(findMaxNumber(923),"<br>");
+    document.write(findMaxNumber(1923),"<br>");
+    document.write(findMaxNumber(9231));
+</script>
+</body>
+</html>
