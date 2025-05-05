@@ -23,9 +23,9 @@
         <option value="TypeScript File" />
         <option value="tsconfig.json" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>

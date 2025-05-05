@@ -3,45 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      padding-top: 50px;
-    }
-    .option {
-      margin: 20px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-    }
-    .option label {
-      margin-left: 10px;
-      font-weight: bold;
-    }
-    input[type=checkbox] {
-      width: 40px;
-      height: 40px;
-    }
-  </style>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f0f4f8;
+            padding-top: 50px;
+        }
+
+        .container {
+            display: inline-block;
+            background-color: #e5ecf3;
+            padding: 40px;
+            border-radius: 12px;
+        }
+
+        .option {
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: 24px;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 34px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-color: #ccc;
+            transition: .4s;
+            border-radius: 34px;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 26px;
+            width: 26px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            transition: .4s;
+            border-radius: 50%;
+        }
+
+        /* GOOD - xanh lá */
+        #good:checked + .slider {
+            background-color: #4CAF50;
+        }
+
+        /* CHEAP - xanh dương */
+        #cheap:checked + .slider {
+            background-color: #3b73d1;
+        }
+
+        /* FAST - xám đậm */
+        #fast:checked + .slider {
+            background-color: #999;
+        }
+
+        /* Di chuyển nút tròn khi bật */
+        input:checked + .slider:before {
+            transform: translateX(26px);
+        }
+
+        .option label {
+            margin-left: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-<h1>Ứng dụng Good - Fast - Cheap</h1>
+<h1>Ứng dụng Good - Fast - Cheap (Giống hình)</h1>
 
-<div class="option">
-  <input type="checkbox" id="good">
-  <label for="good">GOOD</label>
-</div>
+<div class="container">
+    <div class="option">
+        <label class="switch">
+            <input type="checkbox" id="good">
+            <span class="slider"></span>
+        </label>
+        <label for="good">GOOD</label>
+    </div>
 
-<div class="option">
-  <input type="checkbox" id="cheap">
-  <label for="cheap">CHEAP</label>
-</div>
+    <div class="option">
+        <label class="switch">
+            <input type="checkbox" id="cheap">
+            <span class="slider"></span>
+        </label>
+        <label for="cheap">CHEAP</label>
+    </div>
 
-<div class="option">
-  <input type="checkbox" id="fast">
-  <label for="fast">FAST</label>
+    <div class="option">
+        <label class="switch">
+            <input type="checkbox" id="fast">
+            <span class="slider"></span>
+        </label>
+        <label for="fast">FAST</label>
+    </div>
 </div>
 <script>
   const good = document.getElementById('good');
