@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    .option {
+      margin: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+    }
+    .option label {
+      margin-left: 10px;
+      font-weight: bold;
+    }
+    input[type=checkbox] {
+      width: 40px;
+      height: 40px;
+    }
+  </style>
+</head>
+<body>
+<h1>Ứng dụng Good - Fast - Cheap</h1>
+
+<div class="option">
+  <input type="checkbox" id="good">
+  <label for="good">GOOD</label>
+</div>
+
+<div class="option">
+  <input type="checkbox" id="cheap">
+  <label for="cheap">CHEAP</label>
+</div>
+
+<div class="option">
+  <input type="checkbox" id="fast">
+  <label for="fast">FAST</label>
+</div>
+<script>
+  const good = document.getElementById('good');
+  const cheap = document.getElementById('cheap');
+  const fast = document.getElementById('fast');
+
+  function update(clicked) {
+    if (good.checked && cheap.checked && fast.checked) {
+      if (clicked === good) {
+        fast.checked = false;
+      } else if (clicked === cheap) {
+        good.checked = false;
+      } else if (clicked === fast) {
+        cheap.checked = false;
+      }
+    }
+  }
+
+  good.addEventListener('change', () => update(good));
+  cheap.addEventListener('change', () => update(cheap));
+  fast.addEventListener('change', () => update(fast));
+
+</script>
+</body>
+</html>
